@@ -9,6 +9,7 @@
 </head>
 <body>
 <h2>목록</h2>
+<input type="button" value="등록" onclick="location.href='/member/write.do'">
 <table border="1" width="700px">
 	<tr>
 		<td>아이디</td>

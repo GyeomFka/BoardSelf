@@ -7,5 +7,6 @@ import com.aksrua.board.model.dto.MemberDTO;
 public interface MemberDAO {
 
 	public List<MemberDTO> list();
+	public void insert(MemberDTO dto);
 	
 }

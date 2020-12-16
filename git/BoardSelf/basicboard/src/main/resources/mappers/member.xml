@@ -8,5 +8,12 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 			*
 		FROM MEMBER
 		ORDER BY NAME;
-	</select> 
+	</select>
+	<insert id="insert">
+		INSERT INTO MEMBER 
+			(userid,passwd,name,phone,email)
+		VALUES
+			(#{userid},#{passwd},#{name},#{phone},#{email})
+	</insert> 
 </mapper>
+
